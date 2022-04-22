@@ -139,6 +139,7 @@ public class Principal {
       System.out.println("Ingrese cualquier caracter para continuar...");
       teclado.next();
       System.out.println("\f");
+      x=0;
       Principal.mostrarMenú();
     } while (x!=0 );
   }
